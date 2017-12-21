@@ -36,7 +36,17 @@ public class EchoApplication {
     @EventMapping
     public TextMessage handleTextMessageEvent(MessageEvent<TextMessageContent> event) {
         System.out.println("event: " + event);
-        return new TextMessage(event.getMessage().getText());
+
+        String input = event.getMessage().getText();
+		String output = "";
+		if(input.endsWith("?")) {
+			output = "เนสท์";
+		} else {
+			output = "ครับ";			
+		}
+        return new TextMessage(output);
+
+        //return new TextMessage(event.getMessage().getText());
     }
 
     @EventMapping
