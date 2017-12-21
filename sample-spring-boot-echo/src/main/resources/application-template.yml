@@ -17,8 +17,8 @@ This is tempalte file for configuration.
 Please copy as `application.yml` and change your value.
 
 line.bot:
-  channel-token: 'Put Your Channel Token Here.'
-  channel-secret: 'Put Your Channel Secret Here.'
+  channel-token: aGV7bSZaqWDKBWgBGOo2mC3M1FA/foNaWWTgOLJgf3cuGMrU2SQP+7FFSVH4YfA+Yk5wx4v9w+obU8Xa4IacR3HAYhCZAu5LUvfXVAs9pfuE5+nGcZRo1GrF60Ub/sYlpV03FR8/0c6EVkvCa40lfQdB04t89/1O/w1cDnyilFU=
+  channel-secret: 61f7069884960ed3682c52c5fded63d6
   handler.path: /callback
 
 # To remove Client wire logs. Please comment out following lines.
